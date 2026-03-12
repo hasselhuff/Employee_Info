@@ -1,0 +1,16 @@
+﻿Console.WriteLine("Welcome to the employee information console");
+Console.WriteLine("-------------------------------------------");
+Console.Write("Employee's first name: ");
+string firstName = Console.ReadLine();
+Console.Write("\nEmployee's last name: ");
+string lastName = Console.ReadLine();
+Console.Write("\nEmployee's phone number: ");
+string phone = Console.ReadLine();
+Console.WriteLine("Processed...");
+Console.WriteLine("\n\nField\t\tValue");
+Console.WriteLine("-------------------------------------------");
+Console.WriteLine($"First Name:\t\t{firstName}");
+Console.WriteLine($"Last Name:\t\t{lastName}");
+string email = firstName + "." + lastName + "@company.com";
+Console.WriteLine($"Email Address:\t\t{email}");
+Console.WriteLine($"Phone Number:\t\t{phone}");
